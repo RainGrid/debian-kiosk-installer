@@ -55,6 +55,9 @@ cat > /home/kiosk/.config/openbox/autostart << EOF
 
 KIOSK_URL="https://github.com/RainGrid/"
 
+xset s off
+xset -dpms
+xset s noblank
 unclutter -idle 0.1 -grab -root &
 
 while :
