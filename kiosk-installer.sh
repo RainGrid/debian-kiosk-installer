@@ -66,11 +66,12 @@ do
     --no-first-run \
     --start-maximized \
     --disable \
-    --disable-translate \
+    --disable-features=Translate \
     --disable-infobars \
     --disable-suggestions-service \
     --disable-save-password-bubble \
     --disable-session-crashed-bubble \
+    --disable-restore-session-state \
     --incognito \
     --kiosk \$KIOSK_URL
   sleep 5
